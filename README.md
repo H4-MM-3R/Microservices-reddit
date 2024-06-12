@@ -21,7 +21,6 @@
 | hashTags | str[]     | hashtags    |
 | createOn | timeStamp | timeStamp   |
 
-
 ## Day-1 Tasks
 
 ## Expose API for the following
@@ -36,11 +35,11 @@
 
 ### Discussion Service
 
-- [ ] Create a Discussion
-- [ ] Update a Discussion
-- [ ] Delete a Discussion
-- [ ] Get a List of Discussions based on tags
-- [ ] Get a List of Discussions based on certain text
+- [x] Create a Discussion
+- [x] Update a Discussion
+- [x] Delete a Discussion
+- [x] Get a List of Discussions based on tags
+- [x] Get a List of Discussions based on certain text
 
 ## Required functionalities
 
@@ -54,7 +53,6 @@
 8.  [ ] Users delete or modify comments
 9.  [ ] Users can see view count of a post
 10. [ ] Users can search for any posts using the hashtags
-
 
 Expected Routes:
 
@@ -78,8 +76,3 @@ Additional Routes:
 
 - /user/viewed/:postId - (patch)
 - /user/posts/:tag - (get)
-
-
-
-
-
